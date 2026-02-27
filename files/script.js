@@ -1,5 +1,10 @@
 var typed = new Typed(".text", {
-  strings: ["Programming", "Data Science", "Web Development", "DevOps"],
+  strings: [
+    "Java Spring Boot Development",
+    "MERN Stack Development",
+    "DevOps & Cloud",
+    "Technical Leadership",
+  ],
   typeSpeed: 100,
   backSpeed: 100,
   backDelay: 1000,

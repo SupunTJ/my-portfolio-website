@@ -164,7 +164,11 @@ body {
 }
 
 .btn-box:hover {
-  box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50pc cyan, 0 0 100px cyan,
+  box-shadow:
+    0 0 5px cyan,
+    0 0 25px cyan,
+    0 0 50pc cyan,
+    0 0 100px cyan,
     0 0 200px cyan;
 }
 
@@ -267,13 +271,27 @@ body {
 }
 
 .abtbtn-box:hover {
-  box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50pc cyan, 0 0 100px cyan,
+  box-shadow:
+    0 0 5px cyan,
+    0 0 25px cyan,
+    0 0 50pc cyan,
+    0 0 100px cyan,
     0 0 200px cyan;
 }
 
 /* Skills */
 #Skills {
   background-color: #000;
+}
+#Skills center {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px;
 }
 .subtitle {
   text-align: center;
@@ -283,18 +301,23 @@ body {
 }
 .cards {
   width: 400px;
-  height: 300px;
+  height: auto;
+  min-height: 300px;
   min-width: 200px;
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
   box-shadow: 2px 2px 20px #0ef;
   border-radius: 5px;
   border: 5px solid #0ef;
-  margin: 20px;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin: 0;
 }
 .cards .des {
   padding: 0px;
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 .titles {
   text-align: center;
@@ -332,6 +355,36 @@ body {
 #Projects {
   background-color: #000;
 }
+
+/* Education & Certifications */
+#Education,
+#Certifications {
+  background-color: #000;
+}
+#Education center,
+#Certifications center {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  gap: 20px;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Experience */
+#Experience {
+  background-color: #000;
+}
+#Experience center {
+  display: flex;
+  justify-content: center;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
 .main-text {
   padding-top: 50px;
   margin-top: 10px;
@@ -526,12 +579,18 @@ body {
 }
 
 .top i:hover {
-  box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 200px cyan;
+  box-shadow:
+    0 0 5px cyan,
+    0 0 25px cyan,
+    0 0 50px cyan,
+    0 0 200px cyan;
 }
 
 .reveal {
   opacity: 0;
-  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+  transition:
+    opacity 0.5s ease-in-out,
+    transform 0.5s ease-in-out;
   transform: translateY(20px);
 }
 
@@ -720,7 +779,11 @@ body {
     margin-left: 0;
   }
   .btn-box:hover {
-    box-shadow: 0 0 5px cyan, 0 0 10px cyan, 0 0 15pc cyan, 0 0 20px cyan,
+    box-shadow:
+      0 0 5px cyan,
+      0 0 10px cyan,
+      0 0 15pc cyan,
+      0 0 20px cyan,
       0 0 25px cyan;
   }
   /*about*/
@@ -741,7 +804,11 @@ body {
     text-align: left;
   }
   .abtbtn-box:hover {
-    box-shadow: 0 0 5px cyan, 0 0 10px cyan, 0 0 15pc cyan, 0 0 20px cyan,
+    box-shadow:
+      0 0 5px cyan,
+      0 0 10px cyan,
+      0 0 15pc cyan,
+      0 0 20px cyan,
       0 0 25px cyan;
   }
 
@@ -754,9 +821,6 @@ body {
     width: 300px;
     height: fit-content;
     min-width: 200px;
-    margin: 20px;
-    margin-left: 5%;
-    margin-right: 5%;
   }
   .cards .des {
     padding-bottom: 10px;
@@ -865,7 +929,11 @@ body {
     font-weight: 200;
   }
   .btn-box:hover {
-    box-shadow: 0 0 5px cyan, 0 0 10px cyan, 0 0 15pc cyan, 0 0 20px cyan,
+    box-shadow:
+      0 0 5px cyan,
+      0 0 10px cyan,
+      0 0 15pc cyan,
+      0 0 20px cyan,
       0 0 25px cyan;
   }
   .img {
@@ -897,7 +965,11 @@ body {
     text-align: left;
   }
   .abtbtn-box:hover {
-    box-shadow: 0 0 5px cyan, 0 0 10px cyan, 0 0 15pc cyan, 0 0 20px cyan,
+    box-shadow:
+      0 0 5px cyan,
+      0 0 10px cyan,
+      0 0 15pc cyan,
+      0 0 20px cyan,
       0 0 25px cyan;
   }
 
@@ -907,12 +979,10 @@ body {
     text-align: center;
   }
   .cards {
-    width: auto;
+    width: 100%;
+    max-width: 350px;
     height: fit-content;
     min-width: 200px;
-    margin: 20px;
-    margin-left: 5%;
-    margin-right: 5%;
   }
   .cards .des {
     padding-bottom: 10px;
@@ -920,6 +990,11 @@ body {
   .cards .titles {
     padding-bottom: 0px;
     font-size: 25px;
+  }
+  #Skills center,
+  #Education center,
+  #Certifications center {
+    padding: 10px;
   }
 
   /*project*/
