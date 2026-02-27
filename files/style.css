@@ -15,7 +15,7 @@ body {
   width: 12px;
 }
 ::-webkit-scrollbar-thumb {
-  background: #0ef;
+  background: #ff3333;
   border-radius: 6px;
 }
 
@@ -62,7 +62,7 @@ body {
 }
 
 .navbar a:hover {
-  color: #0ef;
+  color: #ff3333;
   text-decoration: underline;
 }
 
@@ -114,7 +114,7 @@ body {
 }
 
 .home-content h4 span {
-  color: #0ef;
+  color: #ff3333;
   font-size: 32px;
   font-weight: 700;
 }
@@ -130,10 +130,10 @@ body {
   width: 40px;
   height: 40px;
   background: transparent;
-  border: 2px solid #0ef;
+  border: 2px solid #ff3333;
   border-radius: 50%;
   font-size: 20px;
-  color: #0ef;
+  color: #ff3333;
   text-decoration: none;
   margin: 30px 15px 30px 0;
   opacity: 0;
@@ -142,15 +142,15 @@ body {
 }
 
 .home-sci a:hover {
-  background: #0ef;
+  background: #ff3333;
   color: #000;
-  box-shadow: 0 0 20px #0ef;
+  box-shadow: 0 0 20px #ff3333;
 }
 
 .btn-box {
   display: inline-block;
   padding: 12px 28px;
-  background: #0ef;
+  background: #ff3333;
   border-radius: 40px;
   font-size: 15px;
   text-align: center;
@@ -165,11 +165,11 @@ body {
 
 .btn-box:hover {
   box-shadow:
-    0 0 5px cyan,
-    0 0 25px cyan,
-    0 0 50pc cyan,
-    0 0 100px cyan,
-    0 0 200px cyan;
+    0 0 5px #ff3333,
+    0 0 25px #ff3333,
+    0 0 50pc #ff3333,
+    0 0 100px #ff3333,
+    0 0 200px #ff3333;
 }
 
 .img {
@@ -230,8 +230,8 @@ body {
   max-width: 492px;
   max-height: 492px;
   border-radius: 90px;
-  /*box-shadow: 0 0 5pc cyan, 0 0 5px cyan, 0 0 10px cyan;*/
-  border: #0ef 5px solid;
+  /*box-shadow: 0 0 5pc #ff3333, 0 0 5px #ff3333, 0 0 10px #ff3333;*/
+  border: #ff3333 5px solid;
 }
 
 .about-text {
@@ -244,7 +244,7 @@ body {
 }
 
 .about-text h2 span {
-  color: #0ef;
+  color: #ff3333;
 }
 
 .about-text p {
@@ -254,13 +254,14 @@ body {
   letter-spacing: 2px;
   margin-bottom: 4rem;
   text-align: justify;
-  text-justify: inter-word;
+  text-align-last: left;
+  hyphens: auto;
 }
 
 .abtbtn-box {
   display: inline-block;
   padding: 12px 28px;
-  background: #0ef;
+  background: #ff3333;
   border-radius: 40px;
   font-size: 15px;
   text-align: center;
@@ -272,11 +273,11 @@ body {
 
 .abtbtn-box:hover {
   box-shadow:
-    0 0 5px cyan,
-    0 0 25px cyan,
-    0 0 50pc cyan,
-    0 0 100px cyan,
-    0 0 200px cyan;
+    0 0 5px #ff3333,
+    0 0 25px #ff3333,
+    0 0 50pc #ff3333,
+    0 0 100px #ff3333,
+    0 0 200px #ff3333;
 }
 
 /* Skills */
@@ -306,9 +307,9 @@ body {
   min-width: 200px;
   display: flex;
   flex-direction: column;
-  box-shadow: 2px 2px 20px #0ef;
+  box-shadow: 2px 2px 20px #ff3333;
   border-radius: 5px;
-  border: 5px solid #0ef;
+  border: 5px solid #ff3333;
   margin: 0;
 }
 .cards .des {
@@ -328,11 +329,11 @@ body {
   font-size: 40px;
 }
 .subtitle span {
-  color: #0ef;
+  color: #ff3333;
 }
 .skill-card {
   background-color: #161b22;
-  border: 5px solid #0ef;
+  border: 5px solid #ff3333;
 }
 .skill-icon {
   width: 24px;
@@ -402,15 +403,15 @@ body {
 }
 
 .main-text h2 span {
-  color: #0ef;
+  color: #ff3333;
 }
 .main-text .card {
   width: 305px;
   min-width: 200px;
   display: inline-block;
-  box-shadow: 2px 2px 20px #0ef;
+  box-shadow: 2px 2px 20px #ff3333;
   border-radius: 5px;
-  border: 5px solid #0ef;
+  border: 5px solid #ff3333;
   margin: 20px;
   align-items: center;
 }
@@ -441,7 +442,10 @@ body {
 }
 .des p {
   text-align: justify;
+  text-align-last: left;
   padding: 10px;
+  hyphens: auto;
+  word-spacing: -0.05em;
 }
 .tech {
   display: inline-flex;
@@ -456,7 +460,7 @@ body {
   display: inline-block;
   margin-top: 10px;
   margin-bottom: 10px;
-  background-color: #0ef;
+  background-color: #ff3333;
   border: 1px solid white;
   border-radius: 5px;
   padding: 10px;
@@ -496,7 +500,7 @@ body {
 }
 
 .contact-text h2 span {
-  color: #0ef;
+  color: #ff3333;
 }
 
 .contact-text h4 {
@@ -519,7 +523,7 @@ body {
 
 .contact-list i {
   display: inline-block;
-  color: #0ef;
+  color: #ff3333;
   font-size: 20px;
   font-weight: 600;
   transition: all 0.4s ease;
@@ -533,19 +537,19 @@ body {
   width: 40px;
   height: 40px;
   background: transparent;
-  border: 2px solid #0ef;
+  border: 2px solid #ff3333;
   border-radius: 50%;
   font-size: 20px;
-  color: #0ef;
+  color: #ff3333;
   text-decoration: none;
   margin: 0px 15px 0px 0;
   opacity: 1;
 }
 
 .contact-icons i:hover {
-  background: #0ef;
+  background: #ff3333;
   color: #000;
-  box-shadow: 0 0 20px #0ef;
+  box-shadow: 0 0 20px #ff3333;
 }
 
 .last-text p {
@@ -572,7 +576,7 @@ body {
 
 .top i {
   color: black;
-  background: #0ef;
+  background: #ff3333;
   font-size: 20px;
   padding: 10px;
   border-radius: 0.5rem;
@@ -580,10 +584,10 @@ body {
 
 .top i:hover {
   box-shadow:
-    0 0 5px cyan,
-    0 0 25px cyan,
-    0 0 50px cyan,
-    0 0 200px cyan;
+    0 0 5px #ff3333,
+    0 0 25px #ff3333,
+    0 0 50px #ff3333,
+    0 0 200px #ff3333;
 }
 
 .reveal {
@@ -780,11 +784,11 @@ body {
   }
   .btn-box:hover {
     box-shadow:
-      0 0 5px cyan,
-      0 0 10px cyan,
-      0 0 15pc cyan,
-      0 0 20px cyan,
-      0 0 25px cyan;
+      0 0 5px #ff3333,
+      0 0 10px #ff3333,
+      0 0 15pc #ff3333,
+      0 0 20px #ff3333,
+      0 0 25px #ff3333;
   }
   /*about*/
   .about {
@@ -805,11 +809,11 @@ body {
   }
   .abtbtn-box:hover {
     box-shadow:
-      0 0 5px cyan,
-      0 0 10px cyan,
-      0 0 15pc cyan,
-      0 0 20px cyan,
-      0 0 25px cyan;
+      0 0 5px #ff3333,
+      0 0 10px #ff3333,
+      0 0 15pc #ff3333,
+      0 0 20px #ff3333,
+      0 0 25px #ff3333;
   }
 
   /*skills*/
@@ -930,11 +934,11 @@ body {
   }
   .btn-box:hover {
     box-shadow:
-      0 0 5px cyan,
-      0 0 10px cyan,
-      0 0 15pc cyan,
-      0 0 20px cyan,
-      0 0 25px cyan;
+      0 0 5px #ff3333,
+      0 0 10px #ff3333,
+      0 0 15pc #ff3333,
+      0 0 20px #ff3333,
+      0 0 25px #ff3333;
   }
   .img {
     max-width: 300px;
@@ -966,11 +970,11 @@ body {
   }
   .abtbtn-box:hover {
     box-shadow:
-      0 0 5px cyan,
-      0 0 10px cyan,
-      0 0 15pc cyan,
-      0 0 20px cyan,
-      0 0 25px cyan;
+      0 0 5px #ff3333,
+      0 0 10px #ff3333,
+      0 0 15pc #ff3333,
+      0 0 20px #ff3333,
+      0 0 25px #ff3333;
   }
 
   /*skills*/
